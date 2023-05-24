@@ -7,7 +7,7 @@ import com.udacity.shoestore.models.Shoe
 
 class AddShoeViewModel : ViewModel() {
 
-    val a = 1
+    val a = 3
 
     private val _dataToSave = MutableLiveData<Shoe>()
     val dataToSave: LiveData<Shoe>
