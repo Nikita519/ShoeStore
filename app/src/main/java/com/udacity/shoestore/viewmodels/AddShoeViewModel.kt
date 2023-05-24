@@ -49,7 +49,7 @@ class AddShoeViewModel : ViewModel() {
         val dataIsReady = nameIsCorrect && descriptionIsCorrect && companyIsCorrect
 
         if (dataIsReady) {
-            _dataToSave.value = shoe 249732 224601
+            _dataToSave.value = shoe
         }
     }
 }
